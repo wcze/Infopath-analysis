@@ -1,0 +1,11 @@
+{
+  "name": "infopath-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "author": "wcze",
+  "license": "ISC",
+  "description": ""
+}

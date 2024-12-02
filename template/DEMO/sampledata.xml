@@ -1,0 +1,8 @@
+<my:DEMO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:fieldA1/>
+	<xd:SchemaInfo LocalName="DEMO" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52">
+		<xd:Namespaces>
+			<xd:Namespace LocalName="DEMO" NamespaceURI="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52"/>
+		</xd:Namespaces>
+	</xd:SchemaInfo>
+</my:DEMO>
