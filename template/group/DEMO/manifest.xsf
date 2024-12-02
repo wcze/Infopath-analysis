@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+此文件由 Microsoft InfoPath 自动创建和修改。
+如果在 InfoPath 中修改表单模板，则在 InfoPath 以外对文件所做的更改可能会丢失。
+-->
+<xsf:xDocumentClass trustSetting="automatic" solutionFormatVersion="3.0.0.0" publishUrl="D:\myworkspace\cze\Infopath-analysis\template\新建文件夹\DEMO.xsn" solutionVersion="1.0.0.192" name="urn:schemas-microsoft-com:office:infopath:01o-oRUQ4Vk6n:-myXSD-2020-10-27T07-28-52" productVersion="15.0.0" trustLevel="restricted" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="DEMO"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="2052"></xsf:property>
+					<xsf:property name="componentId" type="string" value="90"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="461"></xsf:property>
+					<xsf:property name="mode" type="string" value="2"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="upgrade.xsl"></xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="upgrade.xsl" minVersionToUpgrade="0.0.0.0" maxVersionToUpgrade="1.0.0.191"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client server" allowClientOnlyCode="no">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="yes"></xsf2:offline>
+				<xsf2:viewsExtension></xsf2:viewsExtension>
+				<xsf2:server formLocale="zh-CN" isPreSubmitPostBackEnabled="no" isMobileEnabled="no"></xsf2:server>
+			</xsf2:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="视图 1">
+		<xsf:view name="视图 1" caption="视图 1">
+			<xsf:editing>
+				<xsf:xmlToEdit name="组2_460" item="/my:DEMO/my:groupA1List/my:A1List" container="/my:DEMO">
+					<xsf:editWith caption="A1List" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:groupA1List/my:A1List">
+								<my:groupA1List>
+									<my:A1List>
+										<my:fieldA1></my:fieldA1>
+									</my:A1List>
+								</my:groupA1List>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+			</xsf:editing>
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+			<xsf:menuArea name="msoStructuralEditingContextMenu">
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="组2_460" caption="在前面插入 A1List" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="组2_460" caption="在后面插入 A1List" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="组2_460" caption="删除 A1List" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="组2_460" caption="插入 A1List" showIf="immediate"></xsf:button>
+			</xsf:menuArea>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties lastOpenView="view1.xsl" fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52" lastVersionNeedingTransform="1.0.0.191"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2020-10-27T07:28:52 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="DEMO" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+</xsf:xDocumentClass>
