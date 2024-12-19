@@ -7,7 +7,7 @@ InfoPath 表单的核心文件，包含表单的结构、视图、数据连接�
 
 **打包：** 使用常规的压缩包工具对文件夹进行重新压缩为xsn可能导致文件损坏。可以右键该文件-设计打开设计页面，文件-另存为为xsn文件即打包成功。
 
-## manifest.xsf
+## [manifest.xsf](/docs/manifest.xsf.md)
 
 ## myschema.xsd
 
